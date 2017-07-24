@@ -17,3 +17,6 @@ where FILENAME is the name of the data file (optionally preceded by a path) and 
 `java -jar catfuse.jar mydata.dat 0.05`
 
 This will produce a file *mydata_fused.dat* in the same directory where all categories with a relative frequency below 0.05 will be merged with the next neighbor towards the middle of the underlying scale. 
+
+# Download: 
+To download the latest released version, see [releases](https://github.com/dapel/CatFuse/releases).
