@@ -2,7 +2,7 @@
 
 A statistical tool for merging item response categories with few observations.
 
-CatFuse is a console tool developed in cooperation with *Viola Gauß* which automatically merges item response categories (e.g., for item responses retrieved from a survey) that have too few observations (i.e., a relative frequency below a given threshold).
+CatFuse is a free console tool developed in cooperation with *Viola Gauß* which automatically merges item response categories (e.g., for item responses retrieved from a survey) that have too few observations (i.e., a relative frequency below a given threshold).
 
 As input, the tool takes a file with tab-separated data without column headlines (as can be usually exported/imported from/to common statistical software) and outputs a new file in the same format where the corresponding categories are fused. This is done by shifting item categories with a relative frequency below a given threshold towards the middle of the category’s scale. Furthermore, CatFuse outputs in detail what changes have been made to the data to make the processing transparent to the user (this output is currently only available in German). 
 
